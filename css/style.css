@@ -1,0 +1,61 @@
+/*LAS VARIABLES VAN ARRIBA DE TODO*/
+/*Variables globales*/
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif; }
+
+/*SECCIONES*/
+h1 {
+  color: #FFD97D;
+  background-color: #FF9B85;
+  font-family: "Merriweather", serif;
+  height: 150px; }
+
+h1 {
+  color: #60D394; }
+
+.main-index h2 {
+  background-color: #AAF683; }
+
+/*EXTEND*/
+.texto-centrado, .main-index h2 {
+  text-align: center;
+  padding: 2rem 0; }
+
+.flex-column, .main-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.fondo-verde, .main-index {
+  background-color: #AAF683; }
+
+/*MIXIN con parametro*/
+.parrafo-2 {
+  background-color: #FF9B85;
+  color: black;
+  text-align: center;
+  font-family: "Poppins", sans-serif; }
+
+.parrafo-3 {
+  background-color: #AAF683;
+  color: black;
+  text-align: center;
+  font-family: "Merriweather", serif; }
+
+.parrafo-4 {
+  background-color: #FFD97D;
+  color: black;
+  text-align: center;
+  font-family: "Poppins", sans-serif; }
+
+.parrafo-5 {
+  background-color: #EE6055;
+  color: black;
+  text-align: center;
+  font-family: "Merriweather", serif; }

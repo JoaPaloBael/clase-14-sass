@@ -1,0 +1,18 @@
+h1{
+    color: $amarillo;
+    background-color: $coral;
+    font-family: $typo-principal;
+    height: (75px)*2;
+}
+
+$nocturno: false;
+
+@if ($nocturno == true) {
+    h1{
+        color: black;
+    }
+} @else {
+    h1{
+        color: $verde-fuerte;
+    }
+};
